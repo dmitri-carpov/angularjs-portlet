@@ -2,3 +2,8 @@
 
 # Package Files #
 *.jar
+
+# target directories
+target/angularjs-portlet/
+target/classes/
+target/maven-archiver/
