@@ -5,7 +5,7 @@ This portlet enables AngularJS in Liferay Portal.
 
 Installation
 -------------
-Download war file from target/angularjs-portlet.war and copy it to $LIFERAY\_HOME/deploy directory
+Copy target/angularjs-portlet.war to your $LIFERAY\_HOME/deploy directory
 
 What it does?
 -------------
