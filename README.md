@@ -16,12 +16,15 @@ The only changes will appear on the pages are:
 
 1. The "html" tag will have an attribute ng-app="portal"
 2. It includes angularjs libraries in head section, like:
+
 ```html
 <script type="text/javascript" src="/angularjs-portlet/js/angular/angular.min.js"></script>
 <script type="text/javascript" src="/angularjs-portlet/js/angular/angular-resource.js"></script>
 <script type="text/javascript" src="/angularjs-portlet/js/angular/ngupload-min.js"></script>
-```html
+```
+
 3. It includes application.js which already defines AngularJS namespaces for services and controllers
+
 ```js
 angular.module('portal.services', ['ngResource']);
 angular.module('portal.controllers', []);
