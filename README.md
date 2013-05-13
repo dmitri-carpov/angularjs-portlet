@@ -15,7 +15,7 @@ It will be included on every page automatically, but you will not see any frame.
 The only changes will appear on every page are:
 
 1. The "html" tag will have an attribute ng-app="portal"
-2. AngularJS libraries will be added in head section, like:
+2. AngularJS libraries will be added in the head section:
 
 ```html
 <script type="text/javascript" src="/angularjs-portlet/js/angular/angular.min.js"></script>
