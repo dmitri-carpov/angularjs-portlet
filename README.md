@@ -9,13 +9,13 @@ Download war file from target/angularjs-portlet.war and copy it to $LIFERAY\_HOM
 
 What it does?
 -------------
-This portlet is a system portlet you will not see it from liferay's "Add" menu. 
-It will be included on every page of the portal automatically, but do not worry user will notice nothing.
+This portlet is a system portlet and you will not see it from the liferay's "Add" menu. 
+It will be included on every page automatically, but you will not see any frame.
 
-The only changes will appear on the pages are:
+The only changes will appear on every page are:
 
 1. The "html" tag will have an attribute ng-app="portal"
-2. It includes angularjs libraries in head section, like:
+2. AngularJS libraries will be added in head section, like:
 
 ```html
 <script type="text/javascript" src="/angularjs-portlet/js/angular/angular.min.js"></script>
@@ -23,7 +23,7 @@ The only changes will appear on the pages are:
 <script type="text/javascript" src="/angularjs-portlet/js/angular/ngupload-min.js"></script>
 ```
 
-3. It includes application.js which already defines AngularJS namespaces for services and controllers
+3. The application.js library will be added as well. It defines AngularJS namespaces for services and controllers:
 
 ```js
 angular.module('portal.services', ['ngResource']);
